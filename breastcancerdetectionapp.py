@@ -4,9 +4,11 @@ import numpy as np
 import pickle
 
 # Load the trained model
-@st.cache(allow_output_mutation=True)
+@st.cache_resource
 def load_model():
-    with open('model.pkl', 'rb') as file:
+    #location to trained model
+    #use r before '' if raw address i.e x\y\x as below else no need of r
+    with open(r'C:\Users\ARNAV\Desktop\New folder\model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
