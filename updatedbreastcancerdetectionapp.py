@@ -8,7 +8,7 @@ import pickle
 def load_model():
     #location to trained model
     #use r before '' if raw address i.e x\y\x as below else no need of r
-    with open(r'C:\Users\ARNAV\Desktop\New folder\model.pkl', 'rb') as file:
+    with open(r'model.pkl', 'rb') as file:
         model = pickle.load(file)
     return model
 
