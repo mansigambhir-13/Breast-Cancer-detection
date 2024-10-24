@@ -1,5 +1,5 @@
 
-**Thermal Imaging-Based Breast Cancer Detection**
+##Thermal Imaging-Based Breast Cancer Detection##
 **Overview**
 This project implements a deep learning-based system for early detection of breast cancer using thermal imaging. By analyzing thermal patterns and temperature distributions in breast tissue, the system can identify potential abnormalities that may indicate the presence of cancerous cells, providing a non-invasive and radiation-free screening method.
 Features
